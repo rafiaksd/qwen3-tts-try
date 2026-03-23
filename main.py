@@ -1,4 +1,7 @@
-# pip install qwen_tts flash-attnfrom qwen_tts import Qwen3TTSModel
+# pip install qwen_tts flash-attn
+# ** install flash-attn only if you have GPU
+
+from qwen_tts import Qwen3TTSModel
 import time 
 import torch
 
